@@ -1,0 +1,90 @@
+div {
+    float: left;
+    height: 470px;
+    width: 43%;
+
+  }
+  #Head{
+    width: 100%;
+    background-color: rgb(100, 59, 10);;
+    height: 60%;
+    padding-top: 0.1px;
+}
+a:hover{
+  opacity: 4;
+  text-underline-offset: 3px;
+  font-size: 30px;
+  background-color: peru;
+}
+.main{
+  /* width: 1219px;
+   background-image: url(darkrest1.jpg);background-size: 350px; background-blend-mode: darken; background-position: center;
+*/
+ height: 100%;
+ background-image: url("images/best/bigdimono.jpg");
+ background-position: 50% 50%;
+ width: 100%;
+ margin: 0 auto 0 0;
+} 
+.logo{
+  image-orientation: inherit;
+  height: 10%;
+  width: 10%;
+}
+@keyframes imani {
+  /* from {background-color: red;}
+   to {background-color: yellow;} */
+   0%   {width: 30%; height: 30%;}
+   25%  {width: 75%; height: 75%;}
+   50%  {width: 100%; height: 100%;}
+   75%  {width: 75%; height: 75%;}
+   100% {width: 30%; height: 30%;}
+ }
+ 
+ /* The element to apply the animation to */
+  #iman{
+   /*width: 100px;
+   height: 100px;*/
+   position: relative;
+   /*background-color: red;*/
+   animation-name: imani;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+ }
+
+
+  #sec1 {
+    float: left;
+    height: 500px;
+    width: 50.65%;
+   
+  }
+  
+  #sec2 {
+    align: "center";
+    height: 500px;
+    width: 46%;
+}
+footer{
+  background-color: rgb(100, 59, 10);;
+  text-decoration: rgb(0, 0, 0);
+  text-size-adjust: 2em;
+  width: 100%;
+  padding-top: 5px;
+}
+.FooterLinks{
+  background-color: wheat;
+  font-size: 30px;
+  color: black;
+}
+header{
+    text-align: center;
+    background-color: grey;   
+    padding: auto;
+    padding-bottom: 2px;
+    width: 91.56%;
+}
+.indent{
+    border: black 3px;
+    border-width: 150px;
+}

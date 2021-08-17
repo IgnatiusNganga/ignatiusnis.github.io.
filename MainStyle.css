@@ -1,0 +1,131 @@
+.logo{
+    image-orientation: inherit;
+    height: 10%;
+    width: 10%;
+}
+.indent{
+    font-size: 20px;
+    font-style: oblique;
+    font-kerning: 10000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /* background-color: wheat ; */
+    height: 100%; 
+    width: 100%;
+}
+/*@keyframes example {
+    /* from {background-color: red;}
+     to {background-color: yellow;} 
+     0%   {background-color:rgb(100, 59, 10);; left:0px; top:0px;}
+     25%  {background-color:rgb(100, 59, 10);; left:40px; top:10px;}
+     50%  {background-color: rgb(100, 59, 10);; left:00px; top:20px;}
+     75%  {background-color:rgb(100, 59, 10);; right: 40px;left:0px; top:10px;}
+     100% {background-color:rgb(100, 59, 10);; left:00px; top:0px;}
+   }
+   
+   /* The element to apply the animation to 
+    .logo{
+     /*width: 100px;
+     height: 100px;
+     position: relative;
+     background-color: red;
+     animation-name: example;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+   }*/
+@keyframes anime{
+   0%   {background-color:wheat; left:0px; top:0px;}
+   /*25%  {background-color:yellow; left:50px; top:0px;}*/
+   50%  {background-color: rgb(100, 59, 10); left:00px; top:30px;}
+   /*75%  {background-color:green; left:0px; top:10px;}*/
+   100% {background-color:wheat; left:0px; top:0px;}
+ }
+ 
+ /* The element to apply the animation to */
+  h1{
+   /*width: 100px;
+   height: 100px;*/
+   position: relative;
+   background-color: red;
+   animation-name: anime;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+ }
+
+a:hover{
+    opacity: 4;
+    text-underline-offset: 3px;
+    font-size: 30px;
+    background-color: peru;
+  }
+#Head{
+    width: 100%;
+    background-color: rgb(100, 59, 10);;
+    height: 1000px;
+    
+    padding-top: 0.1px;
+}
+.HomepageSec{
+   border: 2px;
+   border-width: 100px ;
+   text-align: right;
+   text-align: end;
+   background-color: orangered;
+   font: inherit;
+}
+.main{
+   /* width: 1219px;
+    background-image: url(darkrest1.jpg);background-size: 350px; background-blend-mode: darken; background-position: center;
+*/
+  height: 100%;
+  background-image: url("images/best/gdrest2.jpg");
+  background-position: 50% 50%;
+  width: 100%;
+  margin: 0 auto 0 0;
+}  
+/*div {
+    float: left;
+    height: 470px;
+    width: 43%;
+}
+  
+  #sec1 {
+    float: left;
+    height: 500px;
+    width: 45.65%;
+    /*background-color: orangered;
+    
+  }
+  
+  #sec2 {
+    /*background-color:orangered;
+    height: 500px;
+    width: 46%;
+    
+}*/
+#Navigate{
+    cursor: default;
+    color: rgb(173, 175, 25);
+    word-spacing: 2px;
+    
+    text-justify: auto;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(100, 59, 10);;
+    text-decoration: rgb(0, 0, 0);
+    text-size-adjust: 2em;
+    width: 100%;
+    padding-top: 5px;
+ }
+.FooterLinks{
+    background-color: wheat;
+    font-size: 30px;
+    color: black;
+}
+header{
+    text-align: center;
+    background-color: grey;   
+    padding: auto;
+    padding-bottom: 2px;
+    width: 91.56%;
+}

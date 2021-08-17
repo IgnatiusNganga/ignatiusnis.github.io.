@@ -1,0 +1,217 @@
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #211a1a;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+}
+
+.btnAddAction {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    float: right;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+	float: left;
+	background: #ffffff;
+	margin: 30px 30px 0px 0px;
+	border: #E0E0E0 1px solid;
+}
+
+.product-image {
+	height: 155px;
+	width: 250px;
+	background-color: #FFF;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	font-size: 0.9em;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.product-title {
+	margin-bottom: 20px;
+}
+
+.product-price {
+	float:left;
+}
+
+.cart-action {
+	float: right;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+}
+.logo{
+    image-orientation: inherit;
+    height: 10%;
+    width: 10%;
+  }
+  .indent{
+    font-size: 20px;
+    font-style: oblique;
+    font-kerning: 10000px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   /* background-color: wheat ; */
+    height: 100%; 
+    width: 100%;
+  }
+  a:hover{
+    opacity: 4;
+    text-underline-offset: 3px;
+    font-size: 30px;
+    background-color: peru;
+  }
+  #Head{
+    width: 100%;
+    background-color: rgb(100, 59, 10);;
+    height: 150%;
+    padding-top: 0.1px;
+  }
+  .HomepageSec{
+   border: 2px;
+   border-width: 100px ;
+   text-align: right;
+   text-align: end;
+   background-color: orangered;
+   font: inherit;
+  }
+  .main{
+   /* width: 1219px;
+    background-image: url(darkrest1.jpg);background-size: 350px; background-blend-mode: darken; background-position: center;
+  */
+  height: 100%;
+  background-image: url("images/best/bigdimono.jpg");
+  background-position: 50% 50%;
+  background-size: 250px;
+  width: 100%;
+  margin: 0 auto 0 0;
+  }  
+  /*div {
+    float: left;
+    height: 470px;
+    width: 43%;
+  }
+  
+  #sec1 {
+    float: left;
+    height: 500px;
+    width: 45.65%;
+    /*background-color: orangered;
+    
+  }
+  
+  #sec2 {
+    /*background-color:orangered;
+    height: 500px;
+    width: 46%;
+    
+  }*/
+  #Navigate{
+    cursor: default;
+    color: rgb(173, 175, 25);
+    word-spacing: 2em;
+    
+    text-justify: auto;
+    justify-content: center;
+  }
+  footer{
+    background-color: rgb(100, 59, 10);;
+    text-decoration: rgb(0, 0, 0);
+    text-size-adjust: 2em;
+    width: 100%;
+    padding-top: 5px;
+  }
+  .FooterLinks{
+    background-color: wheat;
+    font-size: 30px;
+    color: black;
+  }
+  header{
+    text-align: center;
+    background-color: grey;   
+    padding: auto;
+    padding-bottom: 2px;
+    width: 91.56%;
+  }
+  

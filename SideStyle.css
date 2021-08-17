@@ -1,0 +1,92 @@
+.logo{
+  image-orientation: inherit;
+  height: 10%;
+  width: 10%;
+}
+.indent{
+  font-size: 20px;
+  font-style: oblique;
+  font-kerning: 10000px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ /* background-color: wheat ; */
+  height: 100%; 
+  width: 100%;
+}
+a:hover{
+  opacity: 4;
+  text-underline-offset: 3px;
+  font-size: 30px;
+  background-color: peru;
+}
+#Head{
+  width: 100%;
+  background-color: rgb(100, 59, 10);;
+  height: 150%;
+  padding-top: 0.1px;
+}
+.HomepageSec{
+ border: 2px;
+ border-width: 100px ;
+ text-align: right;
+ text-align: end;
+ background-color: orangered;
+ font: inherit;
+}
+.main{
+ /* width: 1219px;
+  background-image: url(darkrest1.jpg);background-size: 350px; background-blend-mode: darken; background-position: center;
+*/
+height: 100%;
+background-image: url("images/best/darkrest1.jpg");
+background-position: 50% 50%;
+background-size: 250px;
+width: 100%;
+margin: 0 auto 0 0;
+}  
+/*div {
+  float: left;
+  height: 470px;
+  width: 43%;
+}
+
+#sec1 {
+  float: left;
+  height: 500px;
+  width: 45.65%;
+  /*background-color: orangered;
+  
+}
+
+#sec2 {
+  /*background-color:orangered;
+  height: 500px;
+  width: 46%;
+  
+}*/
+#Navigate{
+  cursor: default;
+  color: rgb(173, 175, 25);
+  word-spacing: 2em;
+  
+  text-justify: auto;
+  justify-content: center;
+}
+footer{
+  background-color: rgb(100, 59, 10);;
+  text-decoration: rgb(0, 0, 0);
+  text-size-adjust: 2em;
+  width: 100%;
+  padding-top: 5px;
+}
+.FooterLinks{
+  background-color: wheat;
+  font-size: 30px;
+  color: black;
+}
+header{
+  text-align: center;
+  background-color: grey;   
+  padding: auto;
+  padding-bottom: 2px;
+  width: 91.56%;
+}
